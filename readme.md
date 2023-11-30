@@ -13,6 +13,17 @@ Working on this project taught me about general principles in RL like Exploratio
 
 These images are just some illustrations of detailed analysis as we were asked for Georgia Tech's ML class to submit a detailed analysis (that can't be publicly shared on the internet...).
 
+
+Below some results for Blackjack:
+![6optivalues](https://github.com/brieucpopper/MDPRL/assets/102361078/8759b946-208e-48e4-a256-eb063ab81ead)
+This shows the "value" found by our algorithm for each game-state in Blackjack, with each row being a state (from hard 4 to hard 21 which means without an Ace, and then Soft 12 to soft 21 and blackjack), and each column being the dealer's visible card.
+A higher value means a higher estimated reward when playing optimally from the current state
+
+![333](https://github.com/brieucpopper/MDPRL/assets/102361078/a0935036-f9fd-453b-953a-4e5b6b4466b2)
+
+Finally this shows the optimal Policy (green means to stick, as in don't pick up a new card, red means hit which means pick up a new card)
+It also shows the behavior of Stopping the training a bit too early, which lmakes the decision a bit "short-sighted"
+
 In this assignement I had a chance to work on
  - Bellman's equation for Value Iteration, Policy Iteration, Q-learning and SARSA
  - Using VI, PI and Q-learning on Blackjack, and on different Frozen Lake sizes
