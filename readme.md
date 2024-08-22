@@ -6,7 +6,9 @@
 The above image shows the policy found by  Q-Learning applied to a classic evaluation game for RL : Frozen Lake.
 In this game, the lake is "slippery" which means if the agent chooses to go down he has 1/3 chance of going left, 1/3 chance of going down and 1/3 chance of going right. If the agent ever falls into a hole he gets 0 reward as the episode stops, but if he gets to the reward in the bottom right he gets 1 reward.
 
-Working on this project taught me about general principles in RL like Exploration vs. Exploitation tradeoff, and I could also play with the hyperparameters of the algorithms to obtain different convergences, as illustrated below
+Working on this project taught me about general principles in RL like Exploration vs. Exploitation tradeoff, and I could also play with the hyperparameters of the algorithms which led to different final results once the algorithm converges (if it did converge)
+
+The below image shows with the final set of hyperparmaters the convergence as the average score starts plateauing after enough iterations
 
 
 ![10qscore](https://github.com/brieucpopper/MDPRL/assets/102361078/a3ff1669-523b-4889-a2b6-48a08b10ff9c)
